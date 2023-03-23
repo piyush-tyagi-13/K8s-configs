@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/apps/v1%40deployment": "file:///Users/azzbeetermac/Documents/GitHub/K8s-configs/history-service.yml",
+        "kubernetes://schema/v1%40service": "file:///Users/azzbeetermac/Documents/GitHub/K8s-configs/elevator-service.yml"
+    }
+}
