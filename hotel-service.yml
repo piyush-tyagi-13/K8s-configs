@@ -3,12 +3,11 @@ kind: ConfigMap
 metadata:
   name: hotel-service-cm
 data:
-  springDatasourceUrl: jdbc:h2:mem:elevator
+  springDatasourceUrl: jdbc:h2:mem:hotel
   springDatasourceUsername: sa
   springDatasourcePassword: password
 
 ---
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
